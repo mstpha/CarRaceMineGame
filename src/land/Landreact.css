@@ -1,0 +1,83 @@
+.land{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+.grid-container {
+    display:grid;
+    width:100vw;
+    margin:auto;
+    height: 100vh; 
+    place-items: center; 
+  }
+.containers1{
+    width:29.5em;
+    height:21.4em;
+    background: url("./minegame.png") no-repeat;
+    background-size:contain;
+    margin:1vw;
+    border:1px solid black;
+}
+
+.min{
+    text-align: center;
+    border:1px solid black;
+    width:10em;
+    margin: auto;
+    margin-top: -0.5em !important;
+    background-color: black;
+    color:white;
+}
+.carr{
+    text-align: center;
+    margin-top: -4em !important;
+    width:10em;
+    height: 1.5em;
+    background-color: black;
+    color:white;
+    margin: auto;
+
+    border:1px solid black;
+}
+.min:hover{
+    background-color: white;
+    color: black;
+}
+.carr:hover{
+    background-color: white;
+    color: black;
+}
+.containers2{
+    width:26em;
+    height:40em;
+    background: url("./cargame.png");
+    background-size: cover ;
+    margin:5vw;
+    border:1px solid black;
+}
+
+.mainprt{
+    display: flex;
+    flex-direction: row;
+    width:60em;
+    margin-top:2em !important;
+    margin: auto;
+}
+.leftprt{
+    margin-top: 7em;
+    display: flex;
+    flex-direction: column;
+}
+.user{
+    border: 1px solid black;
+    width:10em;
+    margin-left: 1em;
+    background-color: pink;
+    border-radius: 10em;
+    text-align: center;
+}
+.user:hover{
+    background-color: white;
+}

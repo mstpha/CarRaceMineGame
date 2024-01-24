@@ -1,0 +1,86 @@
+.mtable td{
+    width: 3vw;
+    height: 5vh;
+}
+
+table{
+    border-collapse: collapse;
+    margin-top: 6vw;
+    width:30vw;
+}
+.start{
+  justify-content: center;
+  border:1px solid black;
+  width:5em;
+  margin-top: 1em !important;
+  border-radius: 2em;
+  margin:auto;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+
+
+.start:hover{
+  background-color: bisque;
+}
+.grid-container {
+  display:grid;
+  width:100vw;
+  margin:auto;
+  height: 100vh; 
+  place-items: center; 
+}
+.table2{
+    width:30vw;
+    height:50vh;
+    border:1px solid black;
+    margin-left:5vw;
+    border-collapse:collapse;
+}
+.table2 td{
+    border: 1px solid black;
+}
+.game-table {
+    transition: opacity 0.5s ease-in-out;
+  }
+  
+  .game-table.inactive {
+    opacity: 0.5;
+  }
+  
+  .end-text-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+  }
+  
+.score{
+    border-radius: 5px;
+    border:1px solid white;
+    color:wheat;
+    padding:10px;
+}
+.lb{
+  border-radius: 10em;
+  border: 1px solid black;
+  margin-top: 19em;
+  margin-left: 4em;
+  margin-right: -4em;
+  padding:0.5em;
+  height:2em;
+  margin-bottom: -19em;
+}
+.lb:hover{
+  background-color: bisque;
+}
+.nm{
+  border-radius: 10em;
+  border:1px solid black;
+  width:10em;
+  text-align: center;
+  margin-bottom: -5em;
+  margin-top: 5em;
+}
